@@ -1,0 +1,6 @@
+framework module Pods_VIVMER_ContactTests {
+  umbrella header "Pods-VIVMER ContactTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

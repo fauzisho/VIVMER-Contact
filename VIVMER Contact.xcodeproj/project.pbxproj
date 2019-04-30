@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B7A9C41DF560C9EE831ED7 /* Pods_VIVMER_ContactUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBB2E47E5EDE58F0195312A /* Pods_VIVMER_ContactUITests.framework */; };
 		2D3E85112278296D00B8D070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E85102278296D00B8D070 /* AppDelegate.swift */; };
 		2D3E85132278296D00B8D070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E85122278296D00B8D070 /* ViewController.swift */; };
 		2D3E85162278296D00B8D070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3E85142278296D00B8D070 /* Main.storyboard */; };
@@ -14,6 +15,27 @@
 		2D3E851B2278296E00B8D070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3E85192278296E00B8D070 /* LaunchScreen.storyboard */; };
 		2D3E85262278296E00B8D070 /* VIVMER_ContactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E85252278296E00B8D070 /* VIVMER_ContactTests.swift */; };
 		2D3E85312278296E00B8D070 /* VIVMER_ContactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E85302278296E00B8D070 /* VIVMER_ContactUITests.swift */; };
+		2D3E8542227829A200B8D070 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E853F227829A200B8D070 /* Observable.swift */; };
+		2D3E8543227829A200B8D070 /* CellConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E8540227829A200B8D070 /* CellConfigurable.swift */; };
+		2D3E8544227829A200B8D070 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E8541227829A200B8D070 /* UIApplication.swift */; };
+		2D3E854C227829C000B8D070 /* ApiParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E8546227829C000B8D070 /* ApiParams.swift */; };
+		2D3E854D227829C000B8D070 /* ApiErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E8547227829C000B8D070 /* ApiErrorResponse.swift */; };
+		2D3E854E227829C000B8D070 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E8548227829C000B8D070 /* ApiResponse.swift */; };
+		2D3E854F227829C000B8D070 /* ApiContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E8549227829C000B8D070 /* ApiContact.swift */; };
+		2D3E8550227829C000B8D070 /* ApiWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E854A227829C000B8D070 /* ApiWeather.swift */; };
+		2D3E8551227829C000B8D070 /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E854B227829C000B8D070 /* ApiEndpoint.swift */; };
+		2D3E855922782A1700B8D070 /* ContactListVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E855522782A1700B8D070 /* ContactListVCViewController.swift */; };
+		2D3E855A22782A1700B8D070 /* ContactDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3E855622782A1700B8D070 /* ContactDetailVC.xib */; };
+		2D3E855B22782A1700B8D070 /* ContactDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E855722782A1700B8D070 /* ContactDetailVC.swift */; };
+		2D3E855C22782A1800B8D070 /* ContactListVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3E855822782A1700B8D070 /* ContactListVCViewController.xib */; };
+		2D3E856022782A2C00B8D070 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E855E22782A2C00B8D070 /* ContactCell.swift */; };
+		2D3E856122782A2C00B8D070 /* ContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3E855F22782A2C00B8D070 /* ContactCell.xib */; };
+		2D3E856622782A9D00B8D070 /* ContactListVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E856522782A9D00B8D070 /* ContactListVCInteractor.swift */; };
+		2D3E856822782AA200B8D070 /* ContactListVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E856722782AA200B8D070 /* ContactListVCViewModel.swift */; };
+		2D3E856A22782AA800B8D070 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E856922782AA800B8D070 /* Contact.swift */; };
+		2D3E856D22782ACA00B8D070 /* ContactListVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E856C22782ACA00B8D070 /* ContactListVCRouter.swift */; };
+		648931475D1813E70EF2EEC6 /* Pods_VIVMER_ContactTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5116A417F2F1A3ED5A38E739 /* Pods_VIVMER_ContactTests.framework */; };
+		CA6CEB487312F698B0C6249A /* Pods_VIVMER_Contact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB18CCC8AADE091F3540CC4 /* Pods_VIVMER_Contact.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		154D383F2E58CBF958593973 /* Pods-VIVMER ContactTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIVMER ContactTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VIVMER ContactTests/Pods-VIVMER ContactTests.release.xcconfig"; sourceTree = "<group>"; };
+		1FBB2E47E5EDE58F0195312A /* Pods_VIVMER_ContactUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIVMER_ContactUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3E850D2278296D00B8D070 /* VIVMER Contact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIVMER Contact.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3E85102278296D00B8D070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D3E85122278296D00B8D070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +71,32 @@
 		2D3E852C2278296E00B8D070 /* VIVMER ContactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VIVMER ContactUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3E85302278296E00B8D070 /* VIVMER_ContactUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIVMER_ContactUITests.swift; sourceTree = "<group>"; };
 		2D3E85322278296E00B8D070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D3E853F227829A200B8D070 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		2D3E8540227829A200B8D070 /* CellConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellConfigurable.swift; sourceTree = "<group>"; };
+		2D3E8541227829A200B8D070 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		2D3E8546227829C000B8D070 /* ApiParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiParams.swift; sourceTree = "<group>"; };
+		2D3E8547227829C000B8D070 /* ApiErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiErrorResponse.swift; sourceTree = "<group>"; };
+		2D3E8548227829C000B8D070 /* ApiResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		2D3E8549227829C000B8D070 /* ApiContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiContact.swift; sourceTree = "<group>"; };
+		2D3E854A227829C000B8D070 /* ApiWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiWeather.swift; sourceTree = "<group>"; };
+		2D3E854B227829C000B8D070 /* ApiEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
+		2D3E855522782A1700B8D070 /* ContactListVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListVCViewController.swift; sourceTree = "<group>"; };
+		2D3E855622782A1700B8D070 /* ContactDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactDetailVC.xib; sourceTree = "<group>"; };
+		2D3E855722782A1700B8D070 /* ContactDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailVC.swift; sourceTree = "<group>"; };
+		2D3E855822782A1700B8D070 /* ContactListVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactListVCViewController.xib; sourceTree = "<group>"; };
+		2D3E855E22782A2C00B8D070 /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		2D3E855F22782A2C00B8D070 /* ContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactCell.xib; sourceTree = "<group>"; };
+		2D3E856522782A9D00B8D070 /* ContactListVCInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListVCInteractor.swift; sourceTree = "<group>"; };
+		2D3E856722782AA200B8D070 /* ContactListVCViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListVCViewModel.swift; sourceTree = "<group>"; };
+		2D3E856922782AA800B8D070 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		2D3E856C22782ACA00B8D070 /* ContactListVCRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListVCRouter.swift; sourceTree = "<group>"; };
+		5116A417F2F1A3ED5A38E739 /* Pods_VIVMER_ContactTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIVMER_ContactTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7382F1C822BBD5CA905EECB3 /* Pods-VIVMER ContactTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIVMER ContactTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VIVMER ContactTests/Pods-VIVMER ContactTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BB18CCC8AADE091F3540CC4 /* Pods_VIVMER_Contact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIVMER_Contact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF58CE7D378500DD36FDBCC /* Pods-VIVMER Contact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIVMER Contact.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VIVMER Contact/Pods-VIVMER Contact.debug.xcconfig"; sourceTree = "<group>"; };
+		965C1FFABEACD7CA42C07D9D /* Pods-VIVMER ContactUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIVMER ContactUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VIVMER ContactUITests/Pods-VIVMER ContactUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB13370394A1498A98572AA3 /* Pods-VIVMER Contact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIVMER Contact.release.xcconfig"; path = "Pods/Target Support Files/Pods-VIVMER Contact/Pods-VIVMER Contact.release.xcconfig"; sourceTree = "<group>"; };
+		EE971F4C3B4D1A96CC521A8E /* Pods-VIVMER ContactUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIVMER ContactUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VIVMER ContactUITests/Pods-VIVMER ContactUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA6CEB487312F698B0C6249A /* Pods_VIVMER_Contact.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				648931475D1813E70EF2EEC6 /* Pods_VIVMER_ContactTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +120,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B7A9C41DF560C9EE831ED7 /* Pods_VIVMER_ContactUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A154913D2D6146E6A5A2531 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BB18CCC8AADE091F3540CC4 /* Pods_VIVMER_Contact.framework */,
+				5116A417F2F1A3ED5A38E739 /* Pods_VIVMER_ContactTests.framework */,
+				1FBB2E47E5EDE58F0195312A /* Pods_VIVMER_ContactUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D349F84CF141723BED6E09A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FF58CE7D378500DD36FDBCC /* Pods-VIVMER Contact.debug.xcconfig */,
+				DB13370394A1498A98572AA3 /* Pods-VIVMER Contact.release.xcconfig */,
+				7382F1C822BBD5CA905EECB3 /* Pods-VIVMER ContactTests.debug.xcconfig */,
+				154D383F2E58CBF958593973 /* Pods-VIVMER ContactTests.release.xcconfig */,
+				EE971F4C3B4D1A96CC521A8E /* Pods-VIVMER ContactUITests.debug.xcconfig */,
+				965C1FFABEACD7CA42C07D9D /* Pods-VIVMER ContactUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2D3E85042278296D00B8D070 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +157,8 @@
 				2D3E85242278296E00B8D070 /* VIVMER ContactTests */,
 				2D3E852F2278296E00B8D070 /* VIVMER ContactUITests */,
 				2D3E850E2278296D00B8D070 /* Products */,
+				2D349F84CF141723BED6E09A /* Pods */,
+				0A154913D2D6146E6A5A2531 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +175,9 @@
 		2D3E850F2278296D00B8D070 /* VIVMER Contact */ = {
 			isa = PBXGroup;
 			children = (
+				2D3E8552227829C800B8D070 /* UI */,
+				2D3E8545227829AA00B8D070 /* Remote */,
+				2D3E853E2278298100B8D070 /* Helper */,
 				2D3E85102278296D00B8D070 /* AppDelegate.swift */,
 				2D3E85122278296D00B8D070 /* ViewController.swift */,
 				2D3E85142278296D00B8D070 /* Main.storyboard */,
@@ -125,6 +206,102 @@
 			path = "VIVMER ContactUITests";
 			sourceTree = "<group>";
 		};
+		2D3E853E2278298100B8D070 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2D3E8540227829A200B8D070 /* CellConfigurable.swift */,
+				2D3E853F227829A200B8D070 /* Observable.swift */,
+				2D3E8541227829A200B8D070 /* UIApplication.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2D3E8545227829AA00B8D070 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				2D3E8549227829C000B8D070 /* ApiContact.swift */,
+				2D3E854B227829C000B8D070 /* ApiEndpoint.swift */,
+				2D3E8547227829C000B8D070 /* ApiErrorResponse.swift */,
+				2D3E8546227829C000B8D070 /* ApiParams.swift */,
+				2D3E8548227829C000B8D070 /* ApiResponse.swift */,
+				2D3E854A227829C000B8D070 /* ApiWeather.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		2D3E8552227829C800B8D070 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2D3E8553227829DA00B8D070 /* ContactVC */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2D3E8553227829DA00B8D070 /* ContactVC */ = {
+			isa = PBXGroup;
+			children = (
+				2D3E856B22782AAC00B8D070 /* Routing */,
+				2D3E856422782A8A00B8D070 /* Entity */,
+				2D3E856322782A6500B8D070 /* ViewModel */,
+				2D3E856222782A3000B8D070 /* Intaractor */,
+				2D3E8554227829FB00B8D070 /* View */,
+			);
+			path = ContactVC;
+			sourceTree = "<group>";
+		};
+		2D3E8554227829FB00B8D070 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D3E855722782A1700B8D070 /* ContactDetailVC.swift */,
+				2D3E855D22782A1A00B8D070 /* Cell */,
+				2D3E855622782A1700B8D070 /* ContactDetailVC.xib */,
+				2D3E855522782A1700B8D070 /* ContactListVCViewController.swift */,
+				2D3E855822782A1700B8D070 /* ContactListVCViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D3E855D22782A1A00B8D070 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2D3E855E22782A2C00B8D070 /* ContactCell.swift */,
+				2D3E855F22782A2C00B8D070 /* ContactCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2D3E856222782A3000B8D070 /* Intaractor */ = {
+			isa = PBXGroup;
+			children = (
+				2D3E856522782A9D00B8D070 /* ContactListVCInteractor.swift */,
+			);
+			path = Intaractor;
+			sourceTree = "<group>";
+		};
+		2D3E856322782A6500B8D070 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2D3E856722782AA200B8D070 /* ContactListVCViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D3E856422782A8A00B8D070 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2D3E856922782AA800B8D070 /* Contact.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2D3E856B22782AAC00B8D070 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				2D3E856C22782ACA00B8D070 /* ContactListVCRouter.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D3E85352278296E00B8D070 /* Build configuration list for PBXNativeTarget "VIVMER Contact" */;
 			buildPhases = (
+				706370D57135A90D258DC32C /* [CP] Check Pods Manifest.lock */,
 				2D3E85092278296D00B8D070 /* Sources */,
 				2D3E850A2278296D00B8D070 /* Frameworks */,
 				2D3E850B2278296D00B8D070 /* Resources */,
+				FE3217E4939824191E235671 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +328,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D3E85382278296E00B8D070 /* Build configuration list for PBXNativeTarget "VIVMER ContactTests" */;
 			buildPhases = (
+				C7E3A82041E18D3C2A4A57EF /* [CP] Check Pods Manifest.lock */,
 				2D3E851D2278296E00B8D070 /* Sources */,
 				2D3E851E2278296E00B8D070 /* Frameworks */,
 				2D3E851F2278296E00B8D070 /* Resources */,
@@ -167,6 +347,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D3E853B2278296E00B8D070 /* Build configuration list for PBXNativeTarget "VIVMER ContactUITests" */;
 			buildPhases = (
+				7EB45693EF38C182A78AA047 /* [CP] Check Pods Manifest.lock */,
 				2D3E85282278296E00B8D070 /* Sources */,
 				2D3E85292278296E00B8D070 /* Frameworks */,
 				2D3E852A2278296E00B8D070 /* Resources */,
@@ -229,6 +410,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3E856122782A2C00B8D070 /* ContactCell.xib in Resources */,
+				2D3E855A22782A1700B8D070 /* ContactDetailVC.xib in Resources */,
+				2D3E855C22782A1800B8D070 /* ContactListVCViewController.xib in Resources */,
 				2D3E851B2278296E00B8D070 /* LaunchScreen.storyboard in Resources */,
 				2D3E85182278296E00B8D070 /* Assets.xcassets in Resources */,
 				2D3E85162278296D00B8D070 /* Main.storyboard in Resources */,
@@ -251,13 +435,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		706370D57135A90D258DC32C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIVMER Contact-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EB45693EF38C182A78AA047 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIVMER ContactUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7E3A82041E18D3C2A4A57EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIVMER ContactTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE3217E4939824191E235671 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VIVMER Contact/Pods-VIVMER Contact-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VIVMER Contact/Pods-VIVMER Contact-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D3E85092278296D00B8D070 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2D3E85132278296D00B8D070 /* ViewController.swift in Sources */,
+				2D3E8550227829C000B8D070 /* ApiWeather.swift in Sources */,
+				2D3E856A22782AA800B8D070 /* Contact.swift in Sources */,
+				2D3E856622782A9D00B8D070 /* ContactListVCInteractor.swift in Sources */,
+				2D3E856D22782ACA00B8D070 /* ContactListVCRouter.swift in Sources */,
+				2D3E8542227829A200B8D070 /* Observable.swift in Sources */,
+				2D3E856822782AA200B8D070 /* ContactListVCViewModel.swift in Sources */,
+				2D3E854C227829C000B8D070 /* ApiParams.swift in Sources */,
+				2D3E855922782A1700B8D070 /* ContactListVCViewController.swift in Sources */,
+				2D3E8543227829A200B8D070 /* CellConfigurable.swift in Sources */,
+				2D3E855B22782A1700B8D070 /* ContactDetailVC.swift in Sources */,
+				2D3E854D227829C000B8D070 /* ApiErrorResponse.swift in Sources */,
+				2D3E854E227829C000B8D070 /* ApiResponse.swift in Sources */,
+				2D3E8551227829C000B8D070 /* ApiEndpoint.swift in Sources */,
+				2D3E8544227829A200B8D070 /* UIApplication.swift in Sources */,
 				2D3E85112278296D00B8D070 /* AppDelegate.swift in Sources */,
+				2D3E856022782A2C00B8D070 /* ContactCell.swift in Sources */,
+				2D3E854F227829C000B8D070 /* ApiContact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,14 +709,12 @@
 		};
 		2D3E85362278296E00B8D070 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF58CE7D378500DD36FDBCC /* Pods-VIVMER Contact.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "VIVMER Contact/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.VIVMER-Contact";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -447,14 +724,12 @@
 		};
 		2D3E85372278296E00B8D070 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB13370394A1498A98572AA3 /* Pods-VIVMER Contact.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "VIVMER Contact/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.VIVMER-Contact";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -464,16 +739,13 @@
 		};
 		2D3E85392278296E00B8D070 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7382F1C822BBD5CA905EECB3 /* Pods-VIVMER ContactTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "VIVMER ContactTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.VIVMER-ContactTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -484,16 +756,13 @@
 		};
 		2D3E853A2278296E00B8D070 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 154D383F2E58CBF958593973 /* Pods-VIVMER ContactTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "VIVMER ContactTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.VIVMER-ContactTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -504,15 +773,12 @@
 		};
 		2D3E853C2278296E00B8D070 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE971F4C3B4D1A96CC521A8E /* Pods-VIVMER ContactUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "VIVMER ContactUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.VIVMER-ContactUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -523,15 +789,12 @@
 		};
 		2D3E853D2278296E00B8D070 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 965C1FFABEACD7CA42C07D9D /* Pods-VIVMER ContactUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "VIVMER ContactUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.VIVMER-ContactUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
